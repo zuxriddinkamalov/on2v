@@ -1,0 +1,44 @@
+{
+  "name": "airpay-crowdsale-widget",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.2",
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "element-ui": "^2.4.7",
+    "font-awesome": "^4.7.0",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.22.2",
+    "ramda": "^0.25.0",
+    "rxjs": "^6.3.3",
+    "sweetalert2": "^7.29.0",
+    "vue": "^2.5.17",
+    "vue-carousel": "^0.16.0",
+    "vue-chartjs": "^3.4.0",
+    "vue-i18n": "^8.0.0",
+    "vue-loading-spinner": "^1.0.11",
+    "vue-meta": "^1.5.6",
+    "vue-ramda": "^1.0.0",
+    "vue-router": "^3.0.1",
+    "vue-rx": "^6.0.1",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "@vue/eslint-config-standard": "^3.0.4",
+    "express": "^4.16.4",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}

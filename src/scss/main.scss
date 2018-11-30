@@ -1,0 +1,61 @@
+$--color-primary: #377dfe;
+$--font-path: "~element-ui/lib/theme-chalk/fonts";
+$BASE_COLOR: #565656;
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+body {
+  background: #ebeef4;
+}
+
+*:not(i) {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+.el-form-item__label {
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.text-right {
+  text-align: right;
+}
+.el-form-item:last-child {
+  margin-bottom: 0;
+}
+.side-bar {
+  padding: 20px 0
+}
+.side-bar-open {
+  outline: none;
+  background-color: #ebf2ff
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+.table thead th {
+  vertical-align: bottom;
+}
+
+.table th, .table td {
+  padding: 0.75rem;
+  vertical-align: top;
+}
+.table tr:hover {
+  background-color: #eaeaea;
+}
+
+.table th, .table td {
+  padding: 0.75rem;
+  vertical-align: top;
+}
